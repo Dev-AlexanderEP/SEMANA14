@@ -7,7 +7,8 @@ const DynamicComponent = dynamic(() => import("../components/LargeComponent"), {
 export default function Home() {
   return (
     <>
-      <h1>Bienvenido</h1>
+      <h1>Bienvenido a mi página optimizada</h1>
+      <p>Aprende cómo mejorar el rendimiento y SEO en Next.js.</p>
       <DynamicComponent />
     </>
   );
