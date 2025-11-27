@@ -2,34 +2,6 @@
 
 import { useState } from "react";
 
-export const metadata = {
-  title: "Contacto - Ponte en contacto con nosotros",
-  description: "¿Tienes preguntas sobre SEO, Next.js o rendimiento web? Contáctanos y te ayudaremos a optimizar tu proyecto.",
-  keywords: "contacto, consultas, ayuda, soporte, SEO, Next.js",
-  openGraph: {
-    title: "Contacto - Ponte en contacto con nosotros",
-    description: "¿Tienes preguntas sobre SEO, Next.js o rendimiento web? Contáctanos.",
-    url: "https://semana14-9go3.onrender.com/contacto",
-    siteName: "Mi Sitio Optimizado",
-    images: [
-      {
-        url: "https://semana14-9go3.onrender.com/contacto-og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Contacto - Mi Sitio Optimizado",
-      },
-    ],
-    locale: "es_ES",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Contacto - Ponte en contacto con nosotros",
-    description: "¿Tienes preguntas sobre SEO, Next.js o rendimiento web? Contáctanos.",
-    images: ["https://semana14-ebta.onrender.com/contacto-og.jpg"],
-  },
-};
-
 export default function Contacto() {
   const [formData, setFormData] = useState({
     name: "",
