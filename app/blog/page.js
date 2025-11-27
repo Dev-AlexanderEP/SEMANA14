@@ -1,30 +1,4 @@
-export const metadata = {
-  title: "Blog - Artículos sobre SEO y Next.js",
-  description: "Lee nuestros artículos sobre optimización SEO, rendimiento web y las mejores prácticas en Next.js para mejorar tus proyectos.",
-  keywords: "blog, SEO, Next.js, artículos, optimización web, tutoriales",
-  openGraph: {
-    title: "Blog - Artículos sobre SEO y Next.js",
-    description: "Lee nuestros artículos sobre optimización SEO y rendimiento web.",
-    url: "https://semana14-9go3.onrender.com/blog",
-    siteName: "Mi Sitio Optimizado",
-    images: [
-      {
-        url: "https://semana14-9go3.onrender.com/blog-og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Blog - Mi Sitio Optimizado",
-      },
-    ],
-    locale: "es_ES",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Blog - Artículos sobre SEO y Next.js",
-    description: "Lee nuestros artículos sobre optimización SEO y rendimiento web.",
-    images: ["https://semana14-ebta.onrender.com/blog-og.jpg"],
-  },
-};
+"use client";
 
 export default function Blog() {
   const posts = [
